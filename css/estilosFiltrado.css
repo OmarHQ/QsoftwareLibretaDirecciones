@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    letter-spacing: 0.05rem;
+    outline: 0 none;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  body {
+    padding: 30px;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 15%;
+    background-color: beige;
+  }
+  
+  td, th {
+    border: 1px solid #13109e;
+   
+    padding: 8px;
+    text-align:center;
+  }
+  
+  input[type=checkbox] {
+      position: relative;
+      cursor: pointer;
+     
+}
+input[type=submit] {
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+    background-color: aquamarine;
+   
+}
